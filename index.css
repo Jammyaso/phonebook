@@ -1,0 +1,26 @@
+#main{
+    
+}
+
+#leftColumn{
+    width: 300px;
+    padding-left: 10px;
+    
+    background: linear-gradient(0.25turn, #8200ff24, #ebf8e1);
+}
+
+#content{
+}
+
+body{
+}
+#popupAdd{
+    display: none;
+    position: absolute;
+    --width: 500px;
+    width: var(--width);
+    height: 100px;
+    background-color: red;
+    left: calc(50% - calc(var(--width) / 2));
+    top: 50px;
+}
